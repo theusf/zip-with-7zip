@@ -1,0 +1,17 @@
+{
+  "name": "zip-with-7zip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules index.ts"
+  },
+  "dependencies": {
+    "7zip-bin": "^5.1.0",
+    "node-7z": "^2.1.2",
+    "ts-node-dev": "^1.1.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  }
+}
